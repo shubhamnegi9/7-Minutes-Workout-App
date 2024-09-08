@@ -14,7 +14,7 @@ Repo for 7 Minutes Workout App. Used:
 
 <img width="216" alt="Screenshot_20240908_163302" src="https://github.com/user-attachments/assets/c33b71d3-0922-4d83-aaa0-a801aba8989d">
 
-<img width="216" alt="Screenshot_20240908_132746" src="https://github.com/user-attachments/assets/b3b51b82-8863-4581-8a16-c14acbf28a34">
+<img width="216" alt="Screenshot_20240908_164815" src="https://github.com/user-attachments/assets/8bf07e1b-0504-41d7-8b48-8f32954705fb">
 
 <img width="216" alt="Screenshot_20240908_132732" src="https://github.com/user-attachments/assets/a24da1cd-6285-45e5-bc68-869ec40cafc2">
 
