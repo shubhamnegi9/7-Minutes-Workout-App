@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">7MinutesWorkout</string>
+    <string name="start">START</string>
+    <string name="bmi">BMI</string>
+    <string name="calculator">Calculator</string>
+    <string name="history">History</string>
+    <string name="get_ready_in">GET READY IN</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_have_finished_the_workout">You have finished the workout</string>
+    <string name="weight_in_kg">WEIGHT (in kg)</string>
+    <string name="weight_in_pound">WEIGHT (in pounds)</string>
+    <string name="height_in_cm">HEIGHT (in cm)</string>
+    <string name="feet">FEET</string>
+    <string name="inch">INCH</string>
+    <string name="calculate">CALCULATE</string>
+</resources>

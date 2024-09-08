@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".HistoryActivity">
+<!--  we position the toolbar top to top of parent-->
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbarHistory"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/white"
+    app:titleTextColor="@color/colorAccent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+
+<!--TODO(Step 1 : Added a RecyclerView to show the list of completed dates in the History Screen UI.)-->
+<!--START-->
+
+<TextView
+    app:layout_constraintTop_toBottomOf="@id/toolbarHistory"
+    android:id="@+id/tvHistory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:text="EXERCISE COMPLETED DATES"
+    android:textSize="18sp"
+    android:visibility="gone"
+    tools:visibility="visible" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rvHistory"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginVertical="15dp"
+    android:visibility="gone"
+    tools:visibility="visible"
+    app:layout_constraintTop_toBottomOf="@id/tvHistory"
+    app:layout_constraintBottom_toTopOf="@id/clearBtn"/>
+
+<TextView
+    app:layout_constraintTop_toBottomOf="@id/toolbarHistory"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:id="@+id/tvNoDataAvailable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="NO DATA AVAILABLE"
+    android:textColor="#212121"
+    android:textSize="18sp"
+    android:visibility="gone"
+    tools:visibility="visible" />
+
+<Button
+    android:id="@+id/clearBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:text="Clear Records"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

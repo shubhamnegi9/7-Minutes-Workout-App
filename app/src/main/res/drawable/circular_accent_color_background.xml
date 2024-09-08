@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adding an oval shape for the start button and it will use this in "circular_accent_color_border_ripple_background.xml".)-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid
+        android:color="@color/colorAccent"
+        />
+
+</shape>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Adding a custom ripple effect to the custom start button -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#C4C4C4">
+
+    <item
+        android:id="@+id/mask">
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="@color/white"/>
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@drawable/circular_accent_color_border"
+        />
+
+</ripple>
