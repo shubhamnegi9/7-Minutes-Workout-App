@@ -12,7 +12,7 @@ interface HistoryDao {
     suspend fun insert(historyEntity: HistoryEntity)
 
     @Query("select * from `exercise-history-table`")
-    fun getExerciseHistoryDates(): Flow<List<HistoryEntity>>
+    fun getExerciseHistoryDates(): Flow<List<HistoryEntity>>    // since we are returning flow, it will automatically make it suspended
 
     @Query("delete from `exercise-history-table`")      // To clear all records from a table, use the @Query annotation and not @Delete annotation
     suspend fun clearAllRecords()       // make this function as suspend to delete on background thread
