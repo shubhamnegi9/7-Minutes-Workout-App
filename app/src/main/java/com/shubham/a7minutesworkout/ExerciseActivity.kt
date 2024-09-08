@@ -31,14 +31,14 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     // Variable for Rest CountDown Timer and later on we will initialize it.
     private var restTimer: CountDownTimer ?= null
     // Variable for total rest duration of 10000 milliseconds (10 seconds)
-    private val restDuration: Long = 1000
+    private val restDuration: Long = 10000
     // Variable for rest timer progress. Initial value the rest progress is set to 0 as we are about to start.
     private var restProgress = 0
 
     // Variable for Exercise CountDown Timer and later on we will initialize it.
     private var exerciseTimer: CountDownTimer ?= null
     // Variable for total exercise duration of 30000 milliseconds (30 seconds)
-    private val exerciseDuration: Long = 1000
+    private val exerciseDuration: Long = 30000
     // Variable for exercise timer progress. Initial value the rest progress is set to 0 as we are about to start.
     private var exerciseProgress = 0
 
